@@ -1,4 +1,4 @@
-package br.alura.com.__lambdas_streams_spring_boot;
+package br.alura.com.lambdas_streams_spring_boot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

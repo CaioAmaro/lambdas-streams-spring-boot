@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'br.alura.com.05-lambdas-streams-spring-boot' is invalid and this project uses 'br.alura.com.__lambdas_streams_spring_boot' instead.
+* The original package name 'br.alura.com.05-lambdas-streams-spring-boot' is invalid and this project uses 'br.alura.com.lambdas_streams_spring_boot' instead.
 
 # Getting Started
 
