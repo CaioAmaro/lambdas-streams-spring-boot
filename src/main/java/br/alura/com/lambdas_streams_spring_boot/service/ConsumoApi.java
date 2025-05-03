@@ -12,7 +12,7 @@ import java.net.http.HttpResponse;
 public class ConsumoApi {
     private static final Logger log = LoggerFactory.getLogger(ConsumoApi.class);
 
-    public static String obterDados(String endereco){
+    public String obterDados(String endereco){
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(endereco))

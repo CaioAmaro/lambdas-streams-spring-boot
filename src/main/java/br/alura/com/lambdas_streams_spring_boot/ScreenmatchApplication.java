@@ -1,6 +1,6 @@
 package br.alura.com.lambdas_streams_spring_boot;
 
-import br.alura.com.lambdas_streams_spring_boot.service.ConsumoApi;
+import br.alura.com.lambdas_streams_spring_boot.main.Main;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,7 +14,9 @@ public class ScreenmatchApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		var json = ConsumoApi.obterDados("https://coffee.alexflipnote.dev/random.json");
-		System.out.println(json);
+
+		Main principal = new Main();
+		principal.exibeMenu();
+
 	}
 }
