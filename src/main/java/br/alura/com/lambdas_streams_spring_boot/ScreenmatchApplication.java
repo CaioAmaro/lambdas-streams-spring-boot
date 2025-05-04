@@ -1,5 +1,6 @@
 package br.alura.com.lambdas_streams_spring_boot;
 
+import br.alura.com.lambdas_streams_spring_boot.desafio.main.MainDesafio;
 import br.alura.com.lambdas_streams_spring_boot.main.Main;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -15,8 +16,12 @@ public class ScreenmatchApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		Main principal = new Main();
-		principal.exibeMenu();
+//Curso		Main principal = new Main();
+//		principal.exibeMenu();
+
+		//DESAFIO TABELA FIPE.
+		MainDesafio mainDesafio = new MainDesafio();
+		mainDesafio.executar();
 
 	}
 }
